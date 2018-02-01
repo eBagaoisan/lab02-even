@@ -14,9 +14,11 @@ int main(){
     }
     if (allEven == true){
         cout<<"all even"<<endl;
+        return 0;
     }
     else{
         cerr<<"not all even"<<endl;
+        return 1;
     }
-    return 0;
+    
 }
